@@ -11,7 +11,7 @@ terraform {
     dynamodb_table = "app-state"
     key    = "LockID"
     region = "us-east-1"
-    profile = "joey-realcloud"
+    profile = "joey"
   }
 }
 
